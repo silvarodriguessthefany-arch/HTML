@@ -45,4 +45,19 @@ img {
 .categoria {
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(247, 107, 15);
+}
+
+.categoria h2 {
+    color: rgb(255, 1, 1);
 }
